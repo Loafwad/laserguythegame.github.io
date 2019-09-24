@@ -295,9 +295,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: invert(0%) !important;
+  filter: invert(0%) !important;
   text-shadow: 0 0 2px #030303;
+}
+
+.text-invert {
+  -webkit-filter: invert(100%) !important;
+  filter: invert(100%) !important;
 }
 
 .image-4 {
